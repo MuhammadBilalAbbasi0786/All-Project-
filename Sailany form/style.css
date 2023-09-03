@@ -1,0 +1,61 @@
+form input[type=text] {
+    width: 400px;
+    height: 20px;
+}
+form input[type=password] {
+    width: 400px;
+    height: 20px;
+}
+form input[type=radio] {
+}
+form input[type=email] {
+    width: 400px;
+    height: 20px;
+}
+form input[type=number] {
+    width: 400px;
+    height: 20px;
+}
+form select{
+    width: 408px;
+    height: 30px;
+}
+form {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgb(211,211,211);
+    padding: 10px 20px;
+    width: 55vw;
+    margin-top: -14px;
+}
+input{
+    margin: 10px auto;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 50vw;
+}
+.main>h1{
+    font-size: 45px;
+}
+form h1 {
+    font-size:33px;
+}
+form td{
+    padding-left: 40px;
+}
+#but{
+    margin-left: -104px;
+}
+.submit{
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 20%;
+    height: 30px;
+}

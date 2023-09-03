@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sailany Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <img src="image/1.PNG" alt="">
+        <h1>Sailany Online Academy</h1>
+        <form action="form.html">
+            <!-- <caption id="red">Student Registration Form</caption> -->
+            <h1>Student Registration Form</h1>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" placeholder="Name" maxlength="10" required></td>
+                </tr>
+                <tr>
+                    <td>Father Name:</td>
+                    <td><input type="text" placeholder="Father Name" maxlength="10" required></td>
+                </tr>
+                 <tr>
+                    <td>Password:</td>
+                    <td><input type="Password" placeholder="********" maxlength="10" minlength="5" required></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="Address" id="" cols="53" rows="10" placeholder="Address" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="Gender">Mail
+                        <input type="radio" name="Gender">Femail
+                    </td>
+                </tr>
+                <tr>
+                    <td>Language:</td>
+                    <td><input type="checkbox" name="Language" id="">Urdu
+                        <input type="checkbox" name="Language" id="">English
+                        <input type="checkbox" name="Language" id="">Arabic
+                        <input type="checkbox" name="Language" id="">Chines
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email ID:</td>
+                    <td><input type="email" name="Email Address" id="" placeholder="Email Address" required></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number:</td>
+                    <td><input type="number" name="Phone number" id="" placeholder="Phone number" maxlength="11" required></td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td><select required>
+                        <option value="City">Select your city</option>
+                        <option value="City">Hyderabad</option>
+                        <option value="City">Karachi</option>
+                        <option value="City">Lahore</option>
+                        <option value="City">Faisalabad</option>
+                        <option value="City">Peshawar</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Hobbies:</td>
+                    <td>
+                        <!-- <select size="3"> -->
+                        <select name="City" id="city" required>
+                        <option value="City">Cricket</option>
+                        <option value="City">Football</option>
+                        <option value="City">Hokey</option>
+                        <option value="City">Tennes</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Pictute Upload:</td>
+                    <td><input type="file" name="Select" id="yes" ></td>
+                    <td><input type="button" value="Upload" id="but"></td>
+                </tr>
+                <!-- <tr >
+                    <td colspan="2"><a href="http://127.0.0.1:5500/form.html" target="_blank"><input type="button" value="Submit Form" class="submit"></a></td>
+                </tr> -->
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit Form" class="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+    
+</body>
+</html>
